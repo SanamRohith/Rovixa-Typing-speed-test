@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rovixa - Typing Speed Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="game-container">
+
+        <h1>Rovixa</h1>
+        <p class="tagline">Typing Speed Test</p>
+
+        <!-- 🔹 STATS -->
+        <div id="stats">
+            <div id="time-selector">
+                <label for="time-select">Duration:</label>
+                <select id="time-select">
+                    <option value="15">15s</option>
+                    <option value="30">30s</option>
+                    <option value="45">45s</option>
+                    <option value="60" selected>60s</option>
+                </select>
+            </div>
+
+            <div id="timer">Time: 60s</div>
+            <div id="wpm">WPM: 0</div>
+            <div id="accuracy">Accuracy: 100%</div>
+            <div id="score">Score: 0</div>
+            <div id="mistakes">Mistakes: 0</div>
+        </div>
+
+        <!-- 🔹 PARAGRAPH -->
+        <div id="paragraph-display">
+            <!-- Paragraph comes from JS -->
+        </div>
+
+        <!-- 🔹 TYPING AREA -->
+        <textarea 
+            id="typing-area"
+            placeholder="Start typing the paragraph above..."
+            autocomplete="off"
+            spellcheck="false"
+            disabled>
+        </textarea>
+
+        <!-- 🔹 RESULTS (IMPORTANT FIX) -->
+        <div id="results" style="display: none;">
+            <h2>Test Complete!</h2>
+            <p id="final-wpm"></p>
+            <p id="final-accuracy"></p>
+            <p id="final-score"></p>
+
+            <button id="restart-btn" onclick="initTest()">
+                Try Again
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
