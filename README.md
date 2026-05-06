@@ -64,6 +64,22 @@ Users can select different typing durations:
 
 ---
 
+
+
+# 📸 Project Preview
+### 🏠 Home Screen
+  ![Home](screenshots/Main.png)
+
+### ⌨️ Typing Area
+![Typing](screenshots/typing.png)
+
+### 📄 Paragraph Display
+![Paragraph](screenshots/Paragraph.png)
+
+### 🎉 Result Screen
+![Result](screenshots/Result.png)
+
+
 # 📂 Project Structure
 
 ```bash
@@ -158,16 +174,4 @@ If sounds are not working:
 
 Incorrect folder structure may prevent audio from loading properly.
 
-# 📸 Project Preview
-
-### 🏠 Home Screen
-![Home](screenshots/Main.png)
-
-### ⌨️ Typing Area
-![Typing](screenshots/typing.png)
-
-### 📄 Paragraph Display
-![Paragraph](screenshots/Paragraph.png)
-
-### 🎉 Result Screen
-![Result](screenshots/Result.png)
+### Happy Coding###
