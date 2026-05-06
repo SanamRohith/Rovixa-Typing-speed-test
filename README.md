@@ -161,13 +161,13 @@ Incorrect folder structure may prevent audio from loading properly.
 # 📸 Project Preview
 
 ### 🏠 Home Screen
-![Home](screenshots/Main%20page.png)
+![Home](screenshots/page.png) 
 
 ### ⌨️ Typing Area
-![Typing](screenshots/typing%20page.png)
+![Typing](screenshots/typing.png) 
 
 ### 📄 Paragraph Display
-![Paragraph](screenshots/Paragraph%20page.png)
+![Paragraph](screenshots/Paragraph.png) 
 
 ### 🎉 Result Screen
-![Result](screenshots/Result%20page.png)
+![Result](screenshots/Result.png)
